@@ -3,6 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 // n Namen einlesen und den kürzesten und längsten Namen ausgeben
+// GitHub Testkommentar
 
 public class A_Einlesen {
     public static void main(String[] args) throws IOException {
