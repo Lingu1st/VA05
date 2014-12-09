@@ -2,8 +2,9 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-// n Namen einlesen und den kürzesten und längsten Namen ausgeben
+// n Namen einlesen und den kÃ¼rzesten und lÃ¤ngsten Namen ausgeben
 // GitHub Testkommentar
+// Noch ein Git Test
 
 public class A_Einlesen {
     public static void main(String[] args) throws IOException {
@@ -16,7 +17,7 @@ public class A_Einlesen {
 
         System.out.println(">>>Array-Eingabe<<<");
         System.out.println();
-        System.out.println("Gib gewünschte Anzahl der Namen zum Eingeben: ");
+        System.out.println("Gib gewÃ¼nschte Anzahl der Namen zum Eingeben: ");
         eingabe = tastatur.readLine();
         n = Integer.parseInt(eingabe);
 
@@ -39,7 +40,7 @@ public class A_Einlesen {
                 stelleLang = i;
             }
         }
-        System.out.println("Der kürzeste Name befindet sich an " + (stelleKurz + 1) + ". Stelle und lautet: " + kurz);
-        System.out.println("Der längste Name befindet sich an " + (stelleLang + 1) + ". Stelle und lautet:  " + lang);
+        System.out.println("Der kÃ¼rzeste Name befindet sich an " + (stelleKurz + 1) + ". Stelle und lautet: " + kurz);
+        System.out.println("Der lÃ¤ngste Name befindet sich an " + (stelleLang + 1) + ". Stelle und lautet:  " + lang);
     }
 }
